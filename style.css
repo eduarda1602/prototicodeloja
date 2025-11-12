@@ -1,18 +1,22 @@
 *{
     padding: 0;
     margin:0 ;
-    background-color: black; /* mudar a cor do fundo*/
+    
 
 }
-    
+  body{
+background-color: black; /* mudar a cor do fundo*/
+
+
+  }  
 
 
 
 li a{
     text-decoration: none; /*remove o sublinhado */
-font-size: 20px; /*tamanho da fonte*/
+font-size: 30px; /*tamanho da fonte*/
 color: rgb(255, 255, 255);
-padding: 20px;
+padding: 30px;
 }
 li{
     list-style:none; /*remover formartaçao da lista*/
@@ -30,12 +34,28 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: chocolate;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
 
 }
 .caixa-img-logo{
 
 height: 90px;
 width: 90;
+
+}
+.bi{
+    font-size: 60px;
+    color: blue;
+}
+.banner{
+background-image: url("./assets/banner.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 400px;
+width: 700px;
+border-radius: 25px;
+
+
 
 }
