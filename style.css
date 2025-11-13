@@ -36,17 +36,14 @@ ul{
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(0, 0, 0);
-
 }
 .caixa-img-logo{
-
 height: 90px;
 width: 90;
-
 }
 .bi{
-    font-size: 60px;
-    color: blue;
+    font-size: 35px;
+    color: rgb(47, 47, 59);
 }
 .banner{
 background-image: url("./assets/banner.png");
@@ -54,8 +51,26 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 400px;
 width: 700px;
-border-radius: 25px;
-
+border-radius: 25px;/*borda foto*/
+display: flex; /*propriedade flex box*/
+align-items: center;
+}
+.texto-banner{
+    font-size: 35px;/*fonte do texto*/
+ color: #fff;
+}
+button{
+width: 192px;
+height: 56px;
+border-radius: 50px;
+background-color: #333;
+color: #fff;
+font-weight: bold;
+border: none;/*remover borda*/
+font-size: 15px;
+}
+.caixa-texto-banner{
+width: 250px;
 
 
 }
