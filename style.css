@@ -1,81 +1,141 @@
 *{
     padding: 0;
-    margin:0 ;
-    
-
+    margin: 0;
+    /* background-color: #1a1a1a; Mudar a cor do fundo */
 }
-  body{
-background-color: black; /* mudar a cor do fundo*/
 
-
-  }  
-
-
-
+body{
+    background-color: #1a1a1a;
+}
 li a{
-    text-decoration: none; /*remove o sublinhado */
-font-size: 30px; /*tamanho da fonte*/
-color: rgb(255, 255, 255);
-padding: 30px;
+text-decoration: none; /*Remove o sublinhado */
+font-size: 20px; /* Tamanho da font*/
+color: #ffffff; /*Mudar a cor da font*/
+padding: 20px;
 }
+
 li{
-    list-style:none; /*remover formartaçao da lista*/
+    list-style: none; /* Remover formartação da lista*/
+}
+
+#logo{
+
+    height: 90px; /*Altura*/
+    width: 140px; /*Largura*/
+}
+
+ul{
+    display: flex; /*Indica a prpriedade FlexBox*/
+    flex-direction: row; /*Colocar os elementos na horizontal ou na vertical*/
+
 
 }
-#logo{
-    height: 90px; /*altura*/
-    width: 140px; /*largura*/
-}
-ul{
-    display: flex; /*indica a propriedade*/
-    flex-direction: row; /* indicar se vai ser colocada na vertical ou horizontal*/
-}
+
 .menu{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(5, 5, 5);
+   
 }
+
 .caixa-img-logo{
-height: 90px;
-width: 90;
+    height: 90px;
+    width: 90px;
 }
+
 .bi{
-    font-size: 35px;
-    color: rgb(36, 36, 43);
+
+    font-size: 30px;
+    color: #4c544c;
 }
+
+.container {
+  width: 100%; /* Garante que o container ocupe 100% da largura do elemento pai */
+  max-width: 1200px; /* Define a largura máxima que o container pode atingir */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  padding: 0 15px; /* Adiciona um espaçamento nas laterais para evitar que o conteúdo fique colado na tela */
+} 
+
 .banner{
-background-image: url("./assets/banner.png");
-background-repeat: no-repeat;
-background-size: cover;
-height: 400px;
-width: 700px;
-border-radius: 18px;/*borda foto*/
-display: flex; /*propriedade flex box*/
-align-items: center;
+    background-image:url("./assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 900px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 .texto-banner{
-    font-size: 30px;/*fonte do texto*/
- color: #fff;
+    font-size: 25px;
+    color: #ffffff;
 }
-button{
-width: 185px;
-height: 45px;
-border-radius: 50px;
-background-color: #333;
-color: #fff;
+.btn-menu{
+width: 145px;
+height: 40px;
+border-radius: 30px;
+background-color: #333333;
+color: #ffffff;
 font-weight: bold;
-border: none;/*remover borda*/
-font-size: 15px;
-margin: 10px;/*distancia em todas direçoes*/
+border: none;
+font-size: 19px;
+margin: 25px;
 }
-.caixa-texto-banner{
-width: 250px;
-padding: 35px;/*espaçamento interno*/
 
+.caixa-texto-banner{
+width: 220px;
+padding: 35px; /*Espaçamento interno*/
 }
 .section-center{
+
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-primario{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:700;
+    padding: 20px;
+}
+
+.estutura-titulo{
+    display: flex;
+    justify-content: center;
+}
+.produtos{
+height: 350px;
+width: 190px;
+}
+
+.valor{
+font-weight: bold;
+font-size: 20px;
+color: #ffffff;
+padding: 35px;
+
+}
+.cores{
+height: 10px;
+width: 10px;
+border-radius: 100%;
+
+}
+.vermelho{
+    background-color: red;
+    
+}
+.azul{
+    background-color: blue;
+    
+}
+.preto{
+    background-color: black;
+}
+.caixa-cores{
 display: flex;
-justify-content: center;
+flex-direction: row;
+justify-content: space-evenly;
+width: 100px;
 }
