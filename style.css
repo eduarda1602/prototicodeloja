@@ -113,7 +113,8 @@ width: 190px;
 font-weight: bold;
 font-size: 20px;
 color: #ffffff;
-padding: 35px;
+display: flex;
+justify-content: center;
 
 }
 .cores{
@@ -130,12 +131,42 @@ border-radius: 100%;
     background-color: blue;
     
 }
-.preto{
-    background-color: black;
+.laranja{
+    background-color: orange;
 }
 .caixa-cores{
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
-width: 100px;
+justify-content:center ;
+gap: 10px;
+}
+.carousel{
+display: flex;
+flex-direction:row;
+justify-content: center;
+gap: 15px;
+}
+.banner2{
+    background-image: url("./assets/x-box.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+     height: 400px;
+    width: 900px;
+display: flex;
+justify-content: end;
+align-items: start;
+font-size: 35px;
+color: #ffffff; 
+}
+.btn-2{
+ height: 20px;
+ width: 35px;
+font-size: 40px;
+border-radius:15px;
+background-color: #333333;
+color: #ffffff;
+font-weight: 300;
+border: none;
+font-size: 15px;
+margin: 25px;
 }
