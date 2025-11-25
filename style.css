@@ -201,3 +201,47 @@ ul {
 .section-xbox{
     padding: 20px;
 }
+.caixa-footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    margin-left: 50px;
+
+
+}
+.texto1{
+    font-size: 18px;
+    color: #ffffff;
+
+
+}
+.texto2{
+    font-size: 18px;
+    color: #ffffff;
+}
+.texto-footer2{
+    color: #ffffff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height: 200px;
+   margin: 35px;
+    
+}
+.caixa-footer2{
+    background-color: #333333;
+    height: 250px;
+    width: 1000px;
+    margin:auto;
+}
+.tiitulo1{
+color: #4c544c;
+}
+.tiitulo2{
+    color: #4c544c;
+}
