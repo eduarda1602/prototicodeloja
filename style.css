@@ -235,7 +235,7 @@ ul {
 }
 .caixa-footer2{
     background-color: #333333;
-    height: 250px;
+    height: 300px;
     width: 1000px;
     margin:auto;
 }
@@ -245,3 +245,20 @@ color: #4c544c;
 .tiitulo2{
     color: #4c544c;
 }
+.caixa_icones2{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+
+}
+.icones{
+    color: #ffffff;
+font-size: 20px;    
+}
+.logo-pe{
+    
+
+}
+
+    
